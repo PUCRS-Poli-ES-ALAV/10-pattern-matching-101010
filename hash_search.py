@@ -1,6 +1,6 @@
 def hash(word, word_size):
     hash_value = 0
-    Q = 37
+    Q = 71
 
     for i in range(word_size):
         hash_value = (hash_value * 26 + ord(word[i])) % Q
